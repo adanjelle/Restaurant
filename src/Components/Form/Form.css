@@ -1,0 +1,47 @@
+
+
+.add-menu-item-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; 
+  padding: 20px;
+  background-color: #dbcece;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(206, 162, 29, 0.1);
+  margin: 30px 0;
+}
+
+.form-group {
+  flex: 9;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.form-group input {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.button3{
+
+  align-self: flex-end;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color:  #ef5454;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+
+
+
+

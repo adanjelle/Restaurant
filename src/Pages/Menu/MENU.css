@@ -1,0 +1,146 @@
+.menu-header {
+  position: relative;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+  background-color: #000; 
+}
+
+.background-image {
+  
+  background-position: center;
+  height: 450px;
+  filter: brightness(90%);
+  transition: background-image 1s ease-in-out;
+  border-radius: 20px;
+  
+}
+
+.menu-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 90%;
+ 
+}
+
+.menu-title h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.menu-title p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.quote-container {
+  margin-top: 20px;
+}
+
+.quote {
+  font-size: 24px;
+  font-style: italic;
+}
+
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  width: 70%;
+  max-width: 600px;
+}
+
+.search-input {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  border-radius: 25px 0 0 25px;
+  transition: all 0.3s ease;
+}
+
+.search-input:focus {
+  background-color: #f0f0f0;
+}
+
+.search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #ff6347;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 0 25px 25px 0;
+}
+
+.search-button:hover {
+  background-color: #ff4500;
+}
+
+.slideshow-container {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.slideshow {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  scroll-behavior: smooth;
+}
+
+.card {
+  flex: 0 0 auto;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  width: 200px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.slideshow-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-color: #f0f0f0;
+  padding: 20px 0;
+}
+
+.slideshow {
+  display: flex;
+  animation: slide 10s linear infinite;
+}
+
+.slideshow img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10%;
+  margin: 0 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.slideshow img:hover {
+  transform: scale(1.1);
+}
+
+@keyframes slide {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}

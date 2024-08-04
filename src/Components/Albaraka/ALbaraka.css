@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.container {
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.7;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.story-paragraph {
+  margin: 10px 0;
+  line-height: 1.9;
+  font-size: 1em;
+}
+
+.story-paragraph strong {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.story-paragraph + .story-paragraph {
+  margin-top: 10px;
+}
+
+.story-paragraph strong + p {
+  margin-top: 5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .container {
+    padding: 15px;
+  }
+  
+  .story-paragraph {
+    font-size: 0.95em;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  .story-paragraph {
+    font-size: 0.9em;
+  }
+
+  .story-paragraph strong {
+    margin-bottom: 8px;
+  }
+
+  .story-paragraph + .story-paragraph {
+    margin-top: 8px;
+  }
+
+  .story-paragraph strong + p {
+    margin-top: 4px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 10px;
+  }
+
+  .story-paragraph {
+    font-size: 0.85em;
+  }
+
+  .story-paragraph strong {
+    margin-bottom: 6px;
+  }
+
+  .story-paragraph + .story-paragraph {
+    margin-top: 6px;
+  }
+
+  .story-paragraph strong + p {
+    margin-top: 3px;
+  }
+}

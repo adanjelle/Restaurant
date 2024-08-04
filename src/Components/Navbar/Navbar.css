@@ -1,0 +1,58 @@
+.navbar {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  color: #49557e;
+  font-size: 20px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.navbar button {
+  background: transparent;
+  font-size: 16px;
+  color: #49557e;
+  border: 1px solid tomato;
+  padding: 10px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.navbar button:hover {
+  background-color: rgba(63, 62, 62, 0.161);
+}
+
+.navbar .active {
+  padding-bottom: 2px;
+  border-bottom: 2px solid #193389;
+}
+
+.navbar li {
+  cursor: pointer;
+}
+
+.basket {
+  position: relative;
+}
+
+.basket .dot {
+  position: absolute;
+  min-width: 8px;
+  min-height: 10px;
+  background-color: rgb(208, 58, 32);
+  border-radius: 5px;
+  top: -8px;
+  right: 8px;
+}

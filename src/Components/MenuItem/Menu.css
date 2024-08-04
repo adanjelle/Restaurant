@@ -1,0 +1,192 @@
+.menu_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; 
+  padding: 20px;
+  justify-content: center;
+}
+
+.order {
+  text-align: center; 
+  margin: 40px 0; 
+  font-size: 24px; 
+  font-weight: bold; 
+  position: relative; 
+}
+
+.order span {
+  display: inline-block;
+  position: relative;
+  padding: 0 10px; 
+}
+
+.order span::before,
+.order span::after {
+  content: '';
+  position: absolute;
+  height: 3px; 
+  background-color: tomato;
+}
+
+.order span::before {
+  top: -10px;
+  left: 0;
+  right: 0;
+}
+
+.order span::after {
+  bottom: -10px; 
+  left: 0;
+  right: 0;
+}
+
+/* Menu Card Styles */
+.menu-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 150px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px; 
+  overflow: hidden; 
+}
+
+.image-container {
+  position: relative;
+  width: 100%; 
+  height: auto; 
+}
+
+.menu-item-image {
+  width: 100%;
+  height: auto; 
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.menu-item-image:hover {
+  transform: scale(1.1); /* Slightly enlarge the image on hover */
+}
+
+.delete-button1 {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  font-size: 18px;
+  color: rgb(17, 14, 14);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.delete-button:hover {
+  background: rgba(255, 255, 255, 1);
+}
+
+.menu-item-details h3 {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.menu-item-details p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.menu-item-details h3:hover,
+.menu-item-details p:hover {
+  color: tomato;
+}
+
+.buy-button {
+  margin-top: 8px;
+  padding: 8px 16px;
+  background-color: tomato;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+  background-color: darkred;
+}
+
+/* Follow Us Section */
+.follow-us {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.follow-us h2 {
+  font-size: 32px;
+  color: tomato;
+  margin: 20px 0;
+}
+.reservation-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9; 
+  margin: 20px 0;
+}
+
+.reservation-content {
+  flex: 1;
+  margin-right: 20px; 
+}
+
+.reservation-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.reservation-content p {
+  font-size: 16px;
+}
+
+.reservation-image {
+  flex: 1;
+  text-align: center;
+}
+
+.reservation-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+@media (min-width: 1200px) {
+  .menu-card {
+    width: 200px;
+  }
+}
+
+@media (min-width: 800px) {
+  .menu-card {
+    flex: 1 1 calc(25% - 32px); 
+  }
+}
+
+@media (max-width: 800px) {
+  .menu-card {
+    flex: 1 1 calc(50% - 32px);
+  }
+}
+
+@media (max-width: 500px) {
+  .menu-card {
+    flex: 1 1 calc(100% - 32px); 
+  }
+}

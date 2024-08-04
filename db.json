@@ -1,0 +1,94 @@
+{
+  "items": [
+    {
+      "id": "9",
+      "image": "https://img.freepik.com/free-photo/front-view-fast-food-table_23-2148262948.jpg?uid=R154277615&ga=GA1.1.1916917109.1719641550&semt=ais_user-customized",
+      "stars": "food provides nutrients in our body",
+      "price": "$14.9",
+      "name": "wikals"
+    },
+    {
+      "id": "11",
+      "image": "https://img.freepik.com/free-photo/delicious-lobster-gourmet-seafood_23-2151713033.jpg?uid=R154277615&ga=GA1.1.1916917109.1719641550&semt=ais_hybrid",
+      "stars": "food provides nutrients in our body",
+      "price": "$44.9",
+      "name": "wikals"
+    },
+    {
+      "id": "aadb",
+      "name": "werusis",
+      "image": "https://img.freepik.com/free-photo/side-view-doner-with-grilled-chicken-greens-lettuce-tomato-french-fries-table_141793-4881.jpg?uid=R154277615&ga=GA1.1.1916917109.1719641550&semt=sph",
+      "price": "21"
+    },
+    {
+      "id": "c05c",
+      "name": "ikokis",
+      "image": "https://img.freepik.com/free-photo/fresh-vegetable-salad-with-grilled-chicken-breast_2829-14105.jpg?uid=R154277615&ga=GA1.1.1916917109.1719641550&semt=sph",
+      "price": "45"
+    },
+    {
+      "id": "3e78",
+      "name": "askilis",
+      "image": "https://img.freepik.com/free-photo/side-view-fried-meat-with-french-fries-ketchup_141793-4908.jpg?uid=R154277615&ga=GA1.1.1916917109.1719641550&semt=sph",
+      "price": "43"
+    },
+    {
+      "id": "5330",
+      "name": "eruyts",
+      "image": "https://img.freepik.com/free-photo/freshly-cooked-meat-stew-with-rice-vegetables-generative-ai_188544-8342.jpg?uid=R154277615&ga=GA1.1.1916917109.1719641550&semt=sph",
+      "price": "67"
+    },
+    {
+      "id": "90e7",
+      "name": "erer",
+      "image": "https://img.freepik.com/free-photo/high-angle-truffle-dish-arrangement_23-2149525181.jpg?uid=R154277615&ga=GA1.1.1916917109.1719641550&semt=sph",
+      "price": "$129"
+    },
+    {
+      "id": "cdf3",
+      "name": "pastor",
+      "image": "https://img.freepik.com/premium-photo/fresh-salad-with-chicken-breast-wooden-table_367024-72.jpg?uid=R154277615&ga=GA1.1.1916917109.1719641550&semt=sph",
+      "price": "ksh 45"
+    }
+  ],
+  "data": [
+    {
+      "id": "3e00",
+      "name": "adesh",
+      "email": "adanjelle@gamil.ccom",
+      "phone": "trtr",
+      "address": "rtrt",
+      "food": "eruyts",
+      "price": "67"
+    }
+  ],
+  "UsersData": [
+    {
+      "id": "02e1",
+      "email": "adesh@gmail.com",
+      "password": "123456789",
+      "name": "adesh"
+    },
+    {
+      "id": "a5c4",
+      "email": "adanjelle4@gmail.com",
+      "password": "123456789",
+      "name": "adesg"
+    },
+    {
+      "id": "b3e4",
+      "email": "denjelle@gmail.com",
+      "password": "12345",
+      "name": "adesh"
+    }
+  ],
+  "UserDetails": [
+    {
+      "id": "5441",
+      "name": "adan",
+      "email": "adanjelle@gamil.ccom",
+      "phone": "0727774164",
+      "message": "666"
+    }
+  ]
+}
